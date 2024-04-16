@@ -1,5 +1,7 @@
 package coleccionesDatos;
 
+import java.util.Random;
+
 public class ColeccionesEstaticas {
 
 	public static void main(String[] args) {
@@ -29,6 +31,22 @@ public class ColeccionesEstaticas {
 		System.out.println();
 		
 		//Llenar el array con números aleatorios entre 1 y 10
+		
+		Random gen1 = new Random();
+		
+		for(int i = 0; i<matriz.length; i++)
+		{
+			matriz[i] = gen1.nextInt(1, 11);
+		}
+		
+		System.out.println("Mostrar a continuación el array generado: ");
+		
+		
+		//For mejorado: Algoritmos solo lectura
+		for(int valor : matriz)
+		{
+			System.out.print(valor + " ");
+		}
 		
 		
 		
