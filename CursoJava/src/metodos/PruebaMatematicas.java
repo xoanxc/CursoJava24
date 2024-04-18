@@ -18,7 +18,7 @@ public class PruebaMatematicas {
 			
 		}
 		
-		double media2 = Marematicas.calcularMedia(matriz);
+		double media2 = Marematicas.calcularMedia(matriz); 
 
 	}
 
