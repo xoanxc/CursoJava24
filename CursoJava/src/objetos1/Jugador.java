@@ -9,12 +9,24 @@ public class Jugador {
 	//En la clase Test (main) crear dos jugadores y mostrar info por consola.
 	
 	
-	String Manuel;
-	String Gonzalo;
+	String manuel;
+	String gonzalo;
+	
+	String equipo;
+	String dorsal;
+	Byte valor;
 	
 	
 	public Jugador()
 	{
+		gonzalo = "cr";
+	}
+	
+	public Jugador(String equipo, String dorsal, Byte valor)
+	{
+		this.equipo = equipo;
+		this.dorsal = dorsal;
+		this.valor = valor;
 		
 	}
 	
