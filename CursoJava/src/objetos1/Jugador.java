@@ -30,6 +30,8 @@ public class Jugador {
 		
 	}
 	
+	//Una clase es la definición de una nueva variable
+	
 	
 
 }
