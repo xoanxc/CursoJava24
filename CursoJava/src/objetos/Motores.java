@@ -20,5 +20,11 @@ public class Motores {
 		this.TiposDeMotor = tpm;
 		
 	}
+	
+	@Override
+	public String toString();
+	{
+		return "Marca" + this.marca + "Cilindrada" + cilindrada;
+	}
 
 }
