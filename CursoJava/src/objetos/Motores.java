@@ -25,6 +25,8 @@ public class Motores {
 	public String toString();
 	{
 		return "Marca" + this.marca + "Cilindrada" + cilindrada "Tipo de motor" + TiposDeMotor;
+	
+		
 	}
 
 }
