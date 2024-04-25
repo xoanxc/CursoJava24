@@ -24,7 +24,7 @@ public class Motores {
 	@Override
 	public String toString();
 	{
-		return "Marca" + this.marca + "Cilindrada" + cilindrada;
+		return "Marca" + this.marca + "Cilindrada" + cilindrada "Tipo de motor" + TiposDeMotor;
 	}
 
 }
